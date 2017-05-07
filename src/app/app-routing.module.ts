@@ -8,7 +8,6 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 const routes: Routes = [
   {
     path: '',
-    children: [],
     redirectTo: '/recipes',
     pathMatch: 'full'
   },
